@@ -1,0 +1,25 @@
+.buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+
+.buttons button{
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.buttons button:hover img{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.buttons img{
+    max-height: 100%;
+    padding: 5px 0 5px 0; 
+}
